@@ -15,7 +15,7 @@ It includes usage tracking (phone/internet), bill calculation, partial payments,
 ## Live Deployment
 
 - API Base URL: [https://mobilebillingapi-efe.azurewebsites.net](https://mobilebillingapi-efe.azurewebsites.net)
-- Swagger UI: [https://mobilebillingapi-efe.azurewebsites.net/swagger](https://mobilebillingapi-efe.azurewebsites.net/swagger)
+- Swagger UI: [https://mobilebillingapi-efe.azurewebsites.net/swagger](https://mobilebillingapiefe-hug0ahbxddd8dtdh.canadacentral-01.azurewebsites.net/swagger/index.html)
 
 ## Default Test Credentials
 
