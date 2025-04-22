@@ -92,6 +92,9 @@ dotnet run
 - [x] Hosted on Azure App Service
 - [x] MySQL used via Azure (no in-memory DB)
 
+## ER Diagram
+![image](https://github.com/user-attachments/assets/a213452a-7b97-45e2-a5be-39e3eb4aabc9)
+
 ## Author
 
 - Efe Demirtaþ  20070001053
