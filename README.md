@@ -30,14 +30,14 @@ Login via `/api/v1/Auth/login` to receive a JWT token. Use the token for authori
 
 ## API Features
 
-- `POST /api/v1/Auth/login` – Login with static credentials to receive a JWT
-- `POST /api/v1/Usage` – Add phone or internet usage
-- `POST /api/v1/Bill/calculate` – Calculates monthly bill:
+- `POST /api/v1/Auth/login` â€“ Login with static credentials to receive a JWT
+- `POST /api/v1/Usage` â€“ Add phone or internet usage
+- `POST /api/v1/Bill/calculate` â€“ Calculates monthly bill:
   - Phone: First 1000 minutes free, 10$ per additional 1000 minutes
   - Internet: 50$ for up to 20GB (20480MB), then 10$ for each extra 10GB
-- `POST /api/v1/Bill/pay` – Pays a bill (supports **partial payments** and keeps remaining amount)
-- `GET /api/v1/Bill/{subscriberId}` – Get summary of all bills for a subscriber
-- `GET /api/v1/Bill/detailed?...` – Get detailed breakdown with pagination
+- `POST /api/v1/Bill/pay` â€“ Pays a bill (supports **partial payments** and keeps remaining amount)
+- `GET /api/v1/Bill/{subscriberId}` â€“ Get summary of all bills for a subscriber
+- `GET /api/v1/Bill/detailed?...` â€“ Get detailed breakdown with pagination
 - Swagger UI for documentation and testing
 - Versioned endpoints: `/api/v1/...`
 - JWT-secured endpoints
@@ -46,7 +46,7 @@ Login via `/api/v1/Auth/login` to receive a JWT token. Use the token for authori
 
 ## Test Note for Instructor
 
-> Please **do not test using subscriber IDs 1, 2, 5, or 6** — these are reserved for example/demo data.  
+> Please **do not test using subscriber IDs 1, 2, 5, or 6** â€” these are reserved for example/demo data.  
 > You may use any other subscriber ID (e.g. 3, 4, 7, etc.) to test the full billing flow.
 
 ## Database Schema Overview
@@ -66,10 +66,11 @@ Each monthly bill is generated from usage, and partial payments reduce `TotalBil
 2. Update `appsettings.json` with your own MySQL connection string:
 
 ```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=yourserver;Database=yourdb;Uid=root;Pwd=yourpassword;"
-}
+ "ConnectionStrings": {
+   "DefaultConnection": "Server=mobilebilling-mysql.mysql.database.azure.com; Port=3306; Database=mobilebillingdb; Uid=efeadmin; Pwd=Root1234; SslMode=Preferred;"
+ },
 ```
+
 
 3. Run the project:
 
@@ -93,10 +94,10 @@ dotnet run
 
 ## Author
 
-- Efe Demirtaþ  20070001053
-- Yaþar University – Computer Engineering  
-- SE4458 Software Engineering  
-- Spring 2025 – Midterm Project
+- Efe DemirtaÃ¾  20070001053
+- YaÅŸar University â€“ Computer Engineering  
+- SE4458  
+- Spring 2025 â€“ Midterm Project
 
 ---
 
