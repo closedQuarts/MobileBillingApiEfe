@@ -1,0 +1,6 @@
+@MobileBillingApiEfe_HostAddress = http://localhost:5195
+
+GET {{MobileBillingApiEfe_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
