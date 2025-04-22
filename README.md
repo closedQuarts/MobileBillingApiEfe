@@ -93,7 +93,8 @@ dotnet run
 - [x] MySQL used via Azure (no in-memory DB)
 
 ## ER Diagram
-![image](https://github.com/user-attachments/assets/3d6c8bee-da65-4c3b-84bc-5e8d82942d66)
+![image](https://github.com/user-attachments/assets/8cb0ce28-ea93-40c4-af88-cf46654f9b77)
+
 
 
 ## Author
