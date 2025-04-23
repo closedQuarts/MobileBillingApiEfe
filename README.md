@@ -18,6 +18,47 @@ It includes usage tracking (phone/internet), bill calculation, partial payments,
 - Swagger UI: [https://mobilebillingapi-efe.azurewebsites.net/swagger](https://mobilebillingapiefe-hug0ahbxddd8dtdh.canadacentral-01.azurewebsites.net/swagger/index.html)
 - Youtube: [Click Here](https://www.youtube.com/watch?v=qvJeY2P4M2w)
 
+## 📁 Project Structure - MobileBillingApiEfe
+
+```
+MobileBillingApiEfe/
+│
+├── Controllers/                      # API endpoints for handling HTTP requests
+│   ├── AuthController.cs             # Handles user authentication via JWT
+│   ├── BillController.cs             # Manages bill creation, querying and payment
+│   ├── UsageController.cs            # Handles usage input such as minutes and MBs
+│   └── WeatherForecastController.cs  # Template file, can be removed
+│
+├── Data/                             # Database configuration and EF Core context
+│   └── AppDbContext.cs               # The database context used by Entity Framework
+│
+├── DTOs/                             # Data Transfer Objects used for request/response
+│   ├── BillRequestDTO.cs             # DTO for querying a bill
+│   ├── DetailedBillResponseDTO.cs    # DTO for returning detailed bill breakdown
+│   ├── PayRequestDTO.cs              # DTO for processing bill payments
+│   └── UsageDTO.cs                   # DTO for submitting usage records
+│
+├── Migrations/                       # Entity Framework Core migration files
+│   ├── 20250422172838_InitialCreate.cs        # Initial schema creation migration
+│   └── AppDbContextModelSnapshot.cs           # EF Core schema snapshot
+│
+├── Models/                           # Domain models / entities
+│   ├── Bill.cs                       # Represents a bill for a subscriber
+│   └── Usage.cs                      # Represents a phone/internet usage entry
+│
+├── Services/                         # Business logic layer
+│   ├── BillService.cs                # Business logic for billing operations
+│   ├── IBillService.cs               # Interface for billing service
+│   ├── IUsageService.cs              # Interface for usage service
+│   ├── JwtService.cs                 # JWT token generation and validation
+│   └── UsageService.cs              # Business logic for usage operations
+│
+├── appsettings.json                  # Main configuration file
+├── appsettings.Development.json      # Environment-specific configuration
+├── MobileBillingApiEfe.http          # VS HTTP test file (for API testing)
+├── Program.cs                        # Application startup logic (.NET 6+ style)
+├── README.md                         # Project documentation (this file)
+
 ## Default Test Credentials
 
 ```json
