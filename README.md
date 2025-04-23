@@ -16,6 +16,7 @@ It includes usage tracking (phone/internet), bill calculation, partial payments,
 
 - API Base URL: [https://mobilebillingapi-efe.azurewebsites.net](https://mobilebillingapi-efe.azurewebsites.net)
 - Swagger UI: [https://mobilebillingapi-efe.azurewebsites.net/swagger](https://mobilebillingapiefe-hug0ahbxddd8dtdh.canadacentral-01.azurewebsites.net/swagger/index.html)
+- Youtube: [Click Here](https://www.youtube.com/watch?v=qvJeY2P4M2w)
 
 ## Default Test Credentials
 
@@ -99,7 +100,7 @@ dotnet run
 
 ## Author
 
-- Efe Demirtaþ  20070001053
+- Efe Demirtaş  20070001053
 - Yaşar University – Computer Engineering  
 - SE4458  
 - Spring 2025 – Midterm Project
