@@ -47,7 +47,7 @@ Login via `/api/v1/Auth/login` to receive a JWT token. Use the token for authori
 
 ## Test Note for Instructor
 
-> Please **do not test using subscriber IDs 1, 2, 5, or 6** — these are reserved for example/demo data.  
+> Please **do not test using subscriber IDs 1, 2, 5, 6, 11, 12, 13, or 14** — these are reserved for example/demo data.  
 > You may use any other subscriber ID (e.g. 3, 4, 7, etc.) to test the full billing flow.
 
 ## Database Schema Overview
